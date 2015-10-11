@@ -9,8 +9,8 @@
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href='../css/style.css' rel='stylesheet' type='text/css'>
 </head>
-<body>
-  <nav class='navbar transparent navbar-default navbar-static-top'>
+<body style = 'background-color: black'>
+  <nav class='navbar navbar-default navbar-static-top'>
     <div class='container-fluid'>
       <div class='navbar-header'>
         <button class='navbar-toggle collapsed' data-toggle='collapse' data-target='#collapse-this' aria-expanded='false'>
@@ -24,31 +24,48 @@
       <div class='navbar-collapse collapse' id='collapse-this'>
         <ul class='nav navbar-right navbar-nav'>
           <li>
-            <a href='about.html'>About</a>
+            <a href='#'>Account Info</a>
+          </li>
+          <li>
+            <a href='#'>Update Location</a>
+          </li>
+          <li>
+            <a href='#'>Help</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <header style="background-image: url('../img/steak.jpg')";>
+  <section class='sect' id='first-sect'>
     <div class='container'>
-      <h3>Buyer Login</h3>
-      <form style='width: 200px; margin: 0 auto'>
-        <div class="form-group">
-          <label for="exampleInputEmail1" style='font-size: 2em'>Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      <div class='row'>
+        <div class='col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-lg-8'>
+          <h2>U-Cafe</h2>
+          <p>
+            Bakery and tea place in downtown Berkeley.
+          </p>
+          <img class='img-responsive' src='http://calibermag.org/wp-content/uploads/2013/02/P1010161.jpg'>
+          <a class='btn btn-lg content-btn' href='#'>Check offerings</a>
+          <a class='btn btn-lg content-btn' href='#'>Business Details</a>
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1" style='font-size: 2em'>Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <a href='muncher_home.html' class='btn-large a-btn btn' style='font-size:2em;'>Submit</a><br>
-        <a href='#' style='font-size:2em;'>Need an account?</a>
-      </form>
-      <br>
-
+      </div>
     </div>
-  </header>
+  </section>
+  <section class='sect' id='second-sect'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-lg-8'>
+          <h2>House of Curries</h2>
+          <p>
+            Indian, Pakistani, Halal.
+          </p>
+          <img class='img-responsive' src='http://www.themenupage.com/images/BERKELEY%20House%20of%20Curries%20Main%20Pic.jpg'>
+          <a class='btn btn-lg content-btn' href='#'>Check offerings</a>
+          <a class='btn btn-lg content-btn' href='#'>Business Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/client.js"></script>
